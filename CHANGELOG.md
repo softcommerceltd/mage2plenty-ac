@@ -1,5 +1,8 @@
 ## Changelog
 
+### Version 1.1.2
+- **Compatibility**: Added compatibility with earlier magento versions: 2.4.0 - 2.4.3
+
 ### Version 1.1.1
 - **Compatibility**: Compatibility with Magento Extension Quality Program (EQP).
 

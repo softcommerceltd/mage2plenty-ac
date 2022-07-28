@@ -11,7 +11,7 @@
         "softcommerce/module-plenty-category-profile": "*",
         "softcommerce/module-plenty-category-profile-schedule": "*",
         "softcommerce/module-plenty-category-rest-api": "*",
-        "softcommerce/module-plenty-client": "~1.1.0",
+        "softcommerce/module-plenty-client": "*",
         "softcommerce/module-plenty-client-rest-api": "*",
         "softcommerce/module-plenty-customer": "*",
         "softcommerce/module-plenty-customer-client": "*",
@@ -44,5 +44,5 @@
         "softcommerce/module-profile-queue": "*",
         "softcommerce/module-profile-schedule": "*"
     },
-    "version": "1.1.1"
+    "version": "1.1.2"
 }
