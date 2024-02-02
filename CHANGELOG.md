@@ -793,6 +793,9 @@ in `SoftCommerce > PlentyMarkets > Manage Client Connection`
 
 # Package: softcommerce/module-plenty-item-profile
 
+### Version 1.6.6
+- **Feature**: Introduce onetime schedule to collect items at specified times as part of cron job process [#24]
+
 ### Version 1.6.5
 - **Enhancement**: Add price rounding option for product import [#23]
 
@@ -997,6 +1000,9 @@ where identical values from default scope were used in other stores, resulting i
 - **Feature**: [M2P-1] New module to handle Plenty Log services.
 
 # Package: softcommerce/module-plenty-item-profile-schedule
+
+### Version 1.2.11
+- **Feature**: Introduce onetime schedule to collect items at specified times as part of cron job process [#2]
 
 ### Version 1.2.10
 - **Enhancement**: General code improvements.
@@ -2274,6 +2280,9 @@ that prevents from reservation save process. `#1`
 - **Feature**: New module to handle profile queue entity.
 
 # Package: softcommerce/module-profile-schedule
+
+### Version 1.3.5
+- **Fix**: Fix onetime schedule cache identifier [#3]
 
 ### Version 1.3.4
 - **Feature**: Introduce onetime schedule to run at specified times as part of cron job process. [#2]
