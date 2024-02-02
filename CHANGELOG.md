@@ -281,6 +281,17 @@ model that's used to retrieve product entity data in array format.
 ### Version 1.0.0
 - **Feature**: [M2PCAT-1] New module to handle category profile schedule entity.
 
+# Package: softcommerce/module-plenty-category-profile-staging
+
+### Version 1.0.2
+- **Compatibility**: Add compatibility for Magento 2.4.6-p3 and Magento 2.4.7
+
+### Version 1.0.1
+- **Compatibility**: Add compatibility for PHP 8.2 and Magento 2.4.6-p1 #2
+
+### Version 1.0.0
+- **Feature**: New module to handle Catalog Staging.
+
 # Package: softcommerce/module-plenty-category-rest-api
 
 ### Version 1.2.3
@@ -1027,6 +1038,20 @@ where identical values from default scope were used in other stores, resulting i
 
 ### Version 1.0.0
 - **Feature**: [M2PO-57] New module to handle item profile schedule entity.
+
+# Package: softcommerce/module-plenty-item-profile-staging
+
+### Version 1.0.3
+- **Compatibility**: Add compatibility for PHP 8.2 and Magento 2.4.6-p1 #2
+
+### Version 1.0.2
+- **Compatibility**: Compatibility with Magento [OS/AC] 2.4.5 and PHP 8
+
+### Version 1.0.1
+- **Enhancement**: Minor changes to code style.
+
+### Version 1.0.0
+- **Feature**: New module to handle Catalog Staging.
 
 # Package: softcommerce/module-plenty-item-rest-api
 
