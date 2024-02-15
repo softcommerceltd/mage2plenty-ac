@@ -484,6 +484,10 @@ in `SoftCommerce > PlentyMarkets > Manage Client Connection`
 
 # Package: softcommerce/module-plenty-customer-profile
 
+### Version 1.0.11
+- **Enhancement**: Add scoped config to SoftCommerce\PlentyCustomerProfile\Model\Config [#6]
+- **Fix**: TypeError: SoftCommerce\PlentyOrderClient\Model\ShippingCountry::getStateByName(): Argument #1 ($stateName) must be of type string, null given [#5]
+
 ### Version 1.0.10
 - **Fix**: Applied a fix to message output in `SoftCommerce\PlentyCustomerProfile\Observer\Backend\ProfileSaveAfterControllerAction::execute`
 
@@ -1364,6 +1368,9 @@ Running schema recurring...Warning: Undefined array key "" in vendor/magento/fra
 
 # Package: softcommerce/module-plenty-order-profile
 
+### Version 1.6.12
+- **Enhancement**: Add scoped config to \SoftCommerce\PlentyOrderProfile\Model\Utils\IsShippingAddressSameAsBillingInterface [#33]
+
 ### Version 1.6.11
 - **Feature** Create new queue messaging for order collect process [#32]
 
@@ -1923,6 +1930,9 @@ the behavior of public methods for `SoftCommerce\PlentyOrderProfile\Model\OrderI
 - **Feature**: [M2PO-55] New module to handle stock client entity.
 
 # Package: softcommerce/module-plenty-stock-profile
+
+### Version 1.3.9
+- **Fix**: Apply a fix for Type Error occurred when creating object: SoftCommerce\PlentyStockProfile|Model|Mq|CollectStockProcessor\RequestDataProvider, Cannot assign null to property $profile of type int [13]
 
 ### Version 1.3.8
 - **Fix**: Adjustment to profile_plenty_stock_import_form.xml action sort order [#12]
