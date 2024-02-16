@@ -2,6 +2,9 @@
 
 # Package: softcommerce/module-core
 
+### Version 1.4.5
+- **Enhancement**: Compatibility with magento commerce staging [#6]
+
 ### version 1.4.4
 - **Enhancement**: New method to build DB metadata for insert request. [#5]
 
@@ -548,6 +551,10 @@ in `SoftCommerce > PlentyMarkets > Manage Client Connection`
 
 # Package: softcommerce/module-plenty-item
 
+### Version 1.4.4
+- **Enhancement**: Compatibility with magento commerce staging [#8]
+- **Fix**: Apply a fix to Item Export Queue listing, where product ID doesn't match the SKU [#7]
+
 ### Version 1.4.3
 - **Enhancement**: Codebase improvements to \SoftCommerce\PlentyItem\Model\GetVariationIdBySku::executeMultiple [#6]
 
@@ -796,6 +803,9 @@ in `SoftCommerce > PlentyMarkets > Manage Client Connection`
 - **Feature**: [M2PO-55] New module to handle item client entity.
 
 # Package: softcommerce/module-plenty-item-profile
+
+### Version 1.6.7
+- **Enhancement**: Compatibility with magento commerce staging [#25]
 
 ### Version 1.6.6
 - **Feature**: Introduce onetime schedule to collect items at specified times as part of cron job process [#24]
