@@ -804,6 +804,9 @@ in `SoftCommerce > PlentyMarkets > Manage Client Connection`
 
 # Package: softcommerce/module-plenty-item-profile
 
+### Version 1.6.8
+- **Enhancement**: Compatibility with new stock functionality. https://github.com/softcommerceltd/mage2plenty-os: [#12]
+
 ### Version 1.6.7
 - **Enhancement**: Compatibility with magento commerce staging [#25]
 
@@ -1820,6 +1823,9 @@ the behavior of public methods for `SoftCommerce\PlentyOrderProfile\Model\OrderI
 
 # Package: softcommerce/module-plenty-stock
 
+### Version 1.3.5
+- **Enhancement**: Compatibility with new stock functionality. https://github.com/softcommerceltd/mage2plenty-os: [#12]
+
 ### Version 1.3.4
 - **Feature**: Introduce onetime schedule to collect stock at specified times as part of cron job process [#6]
 - **Enhancement**: Remove deprecated functionality for stock collect message queue [#5]
@@ -1941,11 +1947,14 @@ the behavior of public methods for `SoftCommerce\PlentyOrderProfile\Model\OrderI
 
 # Package: softcommerce/module-plenty-stock-profile
 
+### Version 1.4.0
+- **Enhancement**: Move softcommerce/module-plenty-stock-reservation module to softcommerce/module-plenty-stock-profile [#12]
+
 ### Version 1.3.9
 - **Fix**: Apply a fix for Type Error occurred when creating object: SoftCommerce\PlentyStockProfile|Model|Mq|CollectStockProcessor\RequestDataProvider, Cannot assign null to property $profile of type int [13]
 
 ### Version 1.3.8
-- **Fix**: Adjustment to profile_plenty_stock_import_form.xml action sort order [#12]
+- **Fix**: Adjustment to profile_plenty_stock_import_form.xml action sort order
 
 ### Version 1.3.7
 - **Fix**: Undefined array key "default" in SoftCommerce/PlentyStockProfile/Model/Config/StockConfig.php on line 134 [#11]
@@ -2052,71 +2061,6 @@ the behavior of public methods for `SoftCommerce\PlentyOrderProfile\Model\OrderI
 ### Version 1.0.0
 - **Feature**: [M2PS-19] New module to handle stock profile schedule services.
 
-# Package: softcommerce/module-plenty-stock-reservation
-
-### Version 1.3.4
-- **Fix**: The requested class did not generate properly, because the 'generated' directory permission is read-only [#4]
-
-### Version 1.3.3
-- **Enhancement**: Introduce message queue for StockCollectScheduler::execute [#3]
-
-### Version 1.3.2
-- **Enhancement**: General code improvements.
-
-### Version 1.3.1
-- **Enhancement**: Changed console command names for better reading.
-
-### Version 1.3.0
-- **Fix**: Reservations are being deleted during the source code assignment process. [#2]
-
-### Version 1.2.9
-- **Compatibility**: Compatibility with `SoftCommerce_PlentyOrderProfile` version 1.4.2.
-
-### Version 1.2.8
-- **Enhancement**: Changed stock import handler from `\Magento\InventoryReservationsApi\Model\AppendReservationsInterface::execute`
-to `\Magento\InventoryReservations\Model\ResourceModel\SaveMultiple::execute` due to cached stock configuration data
-in `\Magento\InventorySales\Plugin\InventoryReservationsApi\PreventAppendReservationOnNotManageItemsInStockPlugin::aroundExecute`
-that prevents from reservation save process. `#1`
-
-### Version 1.2.7
-- **Compatibility**: Compatibility with the latest updates to `SoftCommerce_PlentyClient`
-
-### Version 1.2.6
-- **Enhancement**: Added new cron task to clean-up order and shipment reservation inconsistencies.
-
-### Version 1.2.5
-- **Enhancement**: Adjustment to physical and net stock validation.
-- **Compatibility**: Compatibility with Magento [OS/AC] 2.4.5 and PHP 8.
-
-### Version 1.2.4
-- **Enhancement**: Adjustment to stock client reservation management.
-
-### Version 1.2.3
-- **Enhancement**: Added timestamp to `inventory_reservation` to track reservation process datetime.
-- **Enhancement**: Added inventory reservation listing modal to stock item import queue listing page.
-- **Enhancement**: Added stock collect scheduler after order export.
-
-### Version 1.2.2
-- **Enhancement**: Allow import stock items with 0 quantities.
-
-### Version 1.2.1
-- **Enhancement**: Minor changes to code style.
-
-### Version 1.2.0
-- **Compatibility**: Compatibility with Magento Open Source 2.4.4 [#4]
-
-### Version 1.0.0
-- **Feature**: [M2PSR-6] New module to handle stock reservation entity.
-- **Fix**: [M2PSR-5] Stock import performance issue.
-- **Fix**: [M2PSR-4] Error when running profile schedule. [Profile ID: *, Error: Argument 1 passed to Plenty\Stock\Profile\Config\StockSource::getStockIdBySourceCode() must be of type string, null given, called in Plenty\StockReservation\Profile\Service\OrderExport\Processor\InventoryReservation on line 151]
-- **Feature**: Introduced new CLI command to clean up unassigned reservations.
-- **Improvement**: [M2PSR-3] CLI command to clean up reservation inconsistencies related to parent items.
-- **Compatibility**: php 7.2 compatibility.
-- **Fix**: [M2PM2-88] Integration tests failure.
-- **Improvement**: Minor contextual improvements.
-- **Compatibility**: [M2PSR-2] Stock reservation compatibility for Magento 2.3.5 and earlier.
-- **Improvement**: [M2PSR-1] Stock reservation improvement.
-
 # Package: softcommerce/module-plenty-stock-rest-api
 
 ### Version 1.2.6
@@ -2149,6 +2093,9 @@ that prevents from reservation save process. `#1`
 - **Feature**: [M2PO-55] New module to handle stock rest api entity.
 
 # Package: softcommerce/module-profile
+
+### Version 1.3.6
+- **Compatibility**: Apply a fix to compilation errors for modules that use type declaration with union types. [#11] https://github.com/softcommerceltd/mage2plenty-os/issues/11
 
 ### Version 1.3.5
 - **Enhancement**: General code improvements.
