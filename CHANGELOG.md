@@ -1948,7 +1948,7 @@ the behavior of public methods for `SoftCommerce\PlentyOrderProfile\Model\OrderI
 # Package: softcommerce/module-plenty-stock-profile
 
 ### Version 1.4.0
-- **Enhancement**: Move softcommerce/module-plenty-stock-reservation module to softcommerce/module-plenty-stock-profile [#12]
+- **Enhancement**: Move softcommerce/module-plenty-stock-reservation module to softcommerce/module-plenty-stock-profile. https://github.com/softcommerceltd/mage2plenty-os/issues/12: [#12]
 
 ### Version 1.3.9
 - **Fix**: Apply a fix for Type Error occurred when creating object: SoftCommerce\PlentyStockProfile|Model|Mq|CollectStockProcessor\RequestDataProvider, Cannot assign null to property $profile of type int [13]
