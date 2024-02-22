@@ -1152,6 +1152,9 @@ where identical values from default scope were used in other stores, resulting i
 
 # Package: softcommerce/module-plenty-order
 
+### Version 1.3.9
+- **Fix**: Order export - duplicate payment. https://github.com/softcommerceltd/mage2plenty-os/issues/14: [#14]
+
 ### Version 1.3.8
 - **Compatibility**: Add compatibility for Magento 2.4.6-p3 and Magento 2.4.7
 
@@ -1383,6 +1386,12 @@ Running schema recurring...Warning: Undefined array key "" in vendor/magento/fra
 - **Feature**: [M2PO-55] New module to handle order client entity.
 
 # Package: softcommerce/module-plenty-order-profile
+
+### Version 1.6.14
+- **Fix**: The website with id ### that was requested wasn't found. Verify the website and try again. [#15]
+
+### Version 1.6.13
+- **Fix**: Order export - duplicate payment. https://github.com/softcommerceltd/mage2plenty-os/issues/14: [#14]
 
 ### Version 1.6.12
 - **Enhancement**: Add scoped config to \SoftCommerce\PlentyOrderProfile\Model\Utils\IsShippingAddressSameAsBillingInterface [#33]
@@ -1628,6 +1637,9 @@ the behavior of public methods for `SoftCommerce\PlentyOrderProfile\Model\OrderI
 - **Feature**: [M2PO-57] New module to handle order profile schedule entity.
 
 # Package: softcommerce/module-plenty-order-rest-api
+
+### Version 1.2.8
+- **Fix**: Order export - duplicate payment. https://github.com/softcommerceltd/mage2plenty-os/issues/14: [#14]
 
 ### Version 1.2.7
 - **Enhancement**: Handle empty response for SoftCommerce\PlentyOrderRestApi\Model\Payment\RelationInterface [#5]
