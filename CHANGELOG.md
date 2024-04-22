@@ -1,5 +1,35 @@
 ## Changelog
 
+# Mage2PlentyAc [1.5.5] 22 Apr 2024
+
+### softcommerce/module-plenty-category [1.2.9]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-client [1.3.2]
+- **Feature**: Introduce new method to retrieve client data by locale. [#2]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-item [1.4.5]
+- **Compatibility**: Introduced support for PHP 8.3
+- **Enhancement**: Removed unused etc/config.xml that has no purpose. 
+
+### softcommerce/module-plenty-item-client [1.2.8]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-item-profile [1.7.2]
+- **Feature**: Add attribute mapping for availability fields [#29]
+
+### softcommerce/module-plenty-stock [1.3.6]
+- **Compatibility**: Introduced support for PHP 8.3
+- **Enhancement**: Added new methods `getReservedBundle` and `setReservedBundle` to `SoftCommerce\PlentyStock\Api\Data\InventoryInterface`
+
+### softcommerce/module-plenty-stock-client [1.2.7]
+- **Compatibility**: Introduced support for PHP 8.3
+- **Enhancement**: Added new methods to `SoftCommerce\PlentyStockClient\Api\Data\WarehouseLocationInterface`
+
+### softcommerce/module-plenty-stock-profile [1.5.1]
+- **Enhancement**: Include stock calculation for reservation bundle [#16]
+
 # Mage2PlentyAc [1.5.4] 01 Apr 2024
 
 ### softcommerce/module-core [1.5.0]
