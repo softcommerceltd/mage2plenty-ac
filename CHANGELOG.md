@@ -1,5 +1,103 @@
 ## Changelog
 
+# Mage2PlentyAc [1.5.6] 25 Apr 2024
+
+### softcommerce/module-plenty-attribute [1.3.2]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-attribute-rest-api [1.2.6]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-category-profile-schedule [1.2.5]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-category-profile-staging [1.0.3]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-category-rest-api [1.2.4]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-client [1.3.3]
+- **Feature**: Introduce new config data collect management interface [#3]
+
+### softcommerce/module-plenty-client-rest-api [1.2.7]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-customer [1.3.0]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-customer-client [1.2.6]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#1]
+
+### softcommerce/module-plenty-customer-profile [1.1.1]
+- **Enhancement**: Switch to using new client data collect interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface [#10]
+
+### softcommerce/module-plenty-customer-rest-api [1.2.6]
+- **Compatibility**: Compatibility with PHP 8.3
+
+### softcommerce/module-plenty-item-client [1.2.9]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#1]
+
+### softcommerce/module-plenty-item-profile [1.7.3]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#30]
+
+### softcommerce/module-plenty-item-profile-schedule [1.3.0]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-item-profile-staging [1.0.4]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-item-rest-api [1.3.0]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-log [1.2.7]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-order-client [1.3.0]
+- **Feature**: Create order item property type "product options" to enable exporting additional order item information [#4]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#3]
+- **Feature**: Introduce new order property management to create and handle custom order item attributes [#2]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#1]
+
+### softcommerce/module-plenty-order-profile [1.7.1]
+- **Enhancement**: Include export of order item "additional_options" data for order export #39
+- **Enhancement**: Include client configuration data collect pre-process to be able to collect data prio to order export [#38]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#37]
+- **Fix**: Argument #1 ($countryCode) must be of type string, null given in SoftCommerce\PlentyOrderProfile\Model\OrderExportService\Generator\Order\Items\ItemAbstract::getCountryId() [#36]
+
+### softcommerce/module-plenty-order-rest-api [1.2.9]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-property [1.3.2]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-property-rest-api [1.2.6]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-rest-api [1.3.6]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-stock-client [1.2.8]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#1]
+
+### softcommerce/module-plenty-stock-profile [1.5.2]
+- **Enhancement**: Switch to using new interface SoftCommerce\PlentyClient\Model\CollectClientConfigDataManagementInterface to collect client data configuration [#17]
+
+### softcommerce/module-plenty-stock-profile-schedule [1.2.9]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-plenty-stock-rest-api [1.2.7]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-profile-history [1.2.8]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-profile-queue [1.1.1]
+- **Compatibility**: Introduced support for PHP 8.3
+
+### softcommerce/module-profile-schedule [1.3.6]
+- **Compatibility**: Introduced support for PHP 8.3
+
 # Mage2PlentyAc [1.5.5] 22 Apr 2024
 
 ### softcommerce/module-plenty-category [1.2.9]
