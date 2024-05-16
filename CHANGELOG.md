@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.5.7] 16 May 2024
+
+### softcommerce/module-plenty-item-profile [1.7.4]
+- **Fix**: Deprecated Functionality: Creation of dynamic property SoftCommerce\PlentyItemProfile\...\ItemStorage::$variationIdToItemId is deprecated [#31]
+
 # Mage2PlentyAc [1.5.6] 25 Apr 2024
 
 ### softcommerce/module-plenty-attribute [1.3.2]
