@@ -4,7 +4,7 @@
     "type": "metapackage",
     "license": "EULA",
     "require": {
-        "softcommerce/module-core": "1.5.0",
+        "softcommerce/module-core": "1.5.1",
         "softcommerce/module-plenty-attribute": "1.3.2",
         "softcommerce/module-plenty-attribute-rest-api": "1.2.6",
         "softcommerce/module-plenty-category": "1.2.9",
@@ -20,7 +20,7 @@
         "softcommerce/module-plenty-customer-rest-api": "1.2.6",
         "softcommerce/module-plenty-item": "1.4.5",
         "softcommerce/module-plenty-item-client": "1.2.9",
-        "softcommerce/module-plenty-item-profile": "1.7.4",
+        "softcommerce/module-plenty-item-profile": "1.7.5",
         "softcommerce/module-plenty-item-profile-schedule": "1.3.0",
         "softcommerce/module-plenty-item-profile-staging": "1.0.4",
         "softcommerce/module-plenty-item-rest-api": "1.3.0",
@@ -39,11 +39,11 @@
         "softcommerce/module-plenty-stock-profile": "1.5.2",
         "softcommerce/module-plenty-stock-profile-schedule": "1.2.9",
         "softcommerce/module-plenty-stock-rest-api": "1.2.7",
-        "softcommerce/module-profile": "1.4.0",
+        "softcommerce/module-profile": "1.4.1",
         "softcommerce/module-profile-config": "1.2.11",
         "softcommerce/module-profile-history": "1.2.8",
         "softcommerce/module-profile-queue": "1.1.1",
         "softcommerce/module-profile-schedule": "1.3.6"
     },
-    "version": "1.5.7"
+    "version": "1.5.8"
 }

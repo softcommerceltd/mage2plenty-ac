@@ -1,5 +1,16 @@
 ## Changelog
 
+# Mage2PlentyAc [1.5.8] 28 May 2024
+
+### softcommerce/module-core [1.5.1]
+- **Feature**: Added service & processor interface wrapper for dependant modules that use data processing.
+
+### softcommerce/module-plenty-item-profile [1.7.5]
+- **Feature**: Add an option to collect + import items from within the product page view #32
+
+### softcommerce/module-profile [1.4.1]
+- **Enhancement**: Preserve an array key for context services in `SoftCommerce\Profile\Model\ServiceAbstract\Service::initServices` [#4]
+
 # Mage2PlentyAc [1.5.7] 16 May 2024
 
 ### softcommerce/module-plenty-item-profile [1.7.4]
