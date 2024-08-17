@@ -1,5 +1,29 @@
 ## Changelog
 
+# Mage2PlentyAc [1.5.9] 17 Aug 2024
+
+### softcommerce/module-core [1.5.2]
+- **Fix**: Applied a fix to \SoftCommerce\Core\Model\Store\WebsiteStorage::getStoreIdToWebsiteId method where argument data type for $storeId was changed from string to an integer [#10].
+
+### softcommerce/module-plenty-attribute [1.4.0]
+- **Feature**: Introduce new functionality to manage manufacture synchronisation [#5]
+
+### softcommerce/module-plenty-attribute-rest-api [1.2.7]
+- **Compatibility**: Compatibility with new functionality introduced in `SoftCommerce_PlentyAttribute` [#1]
+
+### softcommerce/module-plenty-category-profile [1.3.11]
+- **Compatibility**: Introduce support for Magento 2.4.7 [#8]
+
+### softcommerce/module-plenty-item [1.4.6]
+- **Compatibility**: Introduce support for Magento 2.4.7 [#9]
+
+### softcommerce/module-plenty-item-profile [1.7.6]
+- **Compatibility**: Compatibility with new functionality introduced in `SoftCommerce_PlentyAttribute` [#34]
+- **Compatibility**: Introduce support for Magento 2.4.7 [#33]
+
+### softcommerce/module-profile-config [1.2.12]
+- **Compatibility**: Introduce support for Magento 2.4.7 [#4]
+
 # Mage2PlentyAc [1.5.8] 28 May 2024
 
 ### softcommerce/module-core [1.5.1]
