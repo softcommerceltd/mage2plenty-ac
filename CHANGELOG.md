@@ -1,5 +1,13 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.1] 17 Sep 2024
+
+### softcommerce/module-plenty-client [1.4.1]
+- **Enhancement**: Applied changes to allow installation of media channels dynamically opposed to static declaration of image types during install
+
+### softcommerce/module-plenty-item-profile [1.8.1]
+- **Enhancement**: Applied changes to allow import of media channels dynamically opposed to static declaration of image types
+
 # Mage2PlentyAc [1.6.0] 13 Sep 2024
 
 ### softcommerce/module-core [1.5.3]
