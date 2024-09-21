@@ -1,5 +1,22 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.2] 21 Sep 2024
+
+### softcommerce/module-core [1.5.4]
+- **Fix**: Cannot use "String" in namespace as it is reserved since PHP 7 [#13]
+
+### softcommerce/module-plenty-attribute [1.4.2]
+- **Feature**: Introduce compatibility with `softcommerce/magento-core` module [#17]
+
+### softcommerce/module-plenty-category [1.2.11]
+- **Feature**: Introduce compatibility with `softcommerce/magento-core` module [#17]
+
+### softcommerce/module-plenty-item-profile [1.8.2]
+- **Feature**: Introduce compatibility with `softcommerce/magento-core` module [#17]
+
+### softcommerce/module-plenty-property [1.3.4]
+- **Feature**: Introduce compatibility with `softcommerce/magento-core` module [#17]
+
 # Mage2PlentyAc [1.6.1] 17 Sep 2024
 
 ### softcommerce/module-plenty-client [1.4.1]
