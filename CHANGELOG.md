@@ -1,5 +1,45 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.5] 27 Sep 2024
+
+### softcommerce/module-core [1.5.6]
+- **Enhancement**: Added an option to display installed metapackages for the bundled modules
+
+### softcommerce/module-plenty-category-profile [1.3.13]
+- **Compatibility**: Applied compatibility for profile common configuration paths [#27]
+
+### softcommerce/module-plenty-customer-profile [1.1.3]
+- **Compatibility**: Applied compatibility for profile common configuration paths [#27]
+
+### softcommerce/module-plenty-item [1.5.0]
+- **Feature**: Introduce a feature to delete local item storage from admin UI [#23]
+
+### softcommerce/module-plenty-item-profile [1.9.1]
+- **Compatibility**: Applied compatibility for profile common configuration paths [#27]
+
+### softcommerce/module-plenty-order-profile [1.7.3]
+- **Enhancement**: Generate unique ID for guest customers that is required for PM contact number [#28]
+- **Compatibility**: Applied compatibility for profile common configuration paths [#27]
+
+### softcommerce/module-plenty-profile [1.5.0]
+- **Feature**: Profiles that share common configuration paths can now be saved simultaneously from any profile [#27]
+
+### softcommerce/module-plenty-property [1.3.5]
+- **Enhancement**: An option to override `isGlobal` condition in `SoftCommerce\PlentyProperty\Model\AttributeToPropertyTypeMappingInterface::getPropertyTypeByAttribute`
+
+### softcommerce/module-plenty-stock [1.3.7]
+- **Enhancement**: Addressed minor performance improvements for `SoftCommerce\PlentyStock\Model\GetOrderItemSourceSelection::generateInventoryRequest()`
+
+### softcommerce/module-plenty-stock-profile [1.7.0]
+- **Compatibility**: Applied compatibility for profile common configuration paths [#27]
+- **Feature**: Introduce custom Source Selection Algorithm to achieve precise NET calculation by accounting for reservations [#26]
+
+### softcommerce/module-profile [1.4.3]
+- **Enhancement**: Added profile config data to event dispatcher for save before/after events.
+
+### softcommerce/module-profile-config [1.2.13]
+- **Fix**: Apply a fix where profile config scope writer saves value as array opposed to serialised data [#29]
+
 # Mage2PlentyAc [1.6.2] 21 Sep 2024
 
 ### softcommerce/module-core [1.5.4]
