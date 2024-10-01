@@ -1,5 +1,22 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.6] 01 Oct 2024
+
+### softcommerce/module-core [1.5.7]
+- **Enhancement**: Added console log debugging in admin area for JS modules
+
+### softcommerce/module-plenty-item-profile [1.9.2]
+- **Fix**: TypeError: SoftCommerce\PlentyItemProfile\Model\ItemExportService\Processor\Item::retrieveSkuByItemId() must be of type array, string given [#30]
+
+### softcommerce/module-plenty-property [1.3.6]
+- **Fix**: Argument #1 ($responseItem) must be of type array, string given in SoftCommerce\PlentyProperty\Profile\PropertyExportService\Processor\BatchProcessor::retrievePropertyId() [#31]
+
+### softcommerce/module-plenty-rest-api [1.3.7]
+- **Fix**: Argument #1 ($item) must be of type array, string given in SoftCommerce\PlentyCustomerRestApi\Model\Response\AddressDataBuilder::buildItemResponse(): [#32]
+
+### softcommerce/module-profile [1.4.4]
+- **Enhancement**: Applied a fix to profile menu items on listing pages.
+
 # Mage2PlentyAc [1.6.5] 27 Sep 2024
 
 ### softcommerce/module-core [1.5.6]
