@@ -1,5 +1,19 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.7] 01 Oct 2024
+
+### softcommerce/module-plenty-customer-client [1.2.8]
+- **Enhancement**: Minor changes to codebase `SoftCommerce\PlentyCustomerClient\Model\AddressOptionTypeManagement`
+
+### softcommerce/module-plenty-item-client [1.2.10]
+- **Enhancement**: Remove `stock_warehouse_dimension, stock_warehouse_location and stock_warehouse_location_details` configs from client data collection process
+
+### softcommerce/module-plenty-order-client [1.4.1]
+- **Enhancement**: Remove `stock_warehouse_dimension, stock_warehouse_location and stock_warehouse_location_details` configs from client data collection process
+
+### softcommerce/module-plenty-stock [1.3.8]
+- **Fix**: Too few arguments to function SoftCommerce\PlentyStock\Model\GetOrderItemSourceSelection::generateInventoryRequest() 3 passed, exactly 4 [#33]
+
 # Mage2PlentyAc [1.6.6] 01 Oct 2024
 
 ### softcommerce/module-core [1.5.7]
