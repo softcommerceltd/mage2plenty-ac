@@ -1,5 +1,13 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.8] 09 Oct 2024
+
+### softcommerce/module-plenty-order-profile [1.7.4]
+- **Enhancement**: Added a functionality to handle cancelled order status synchronisation [#34]
+
+### softcommerce/module-plenty-order-profile-schedule [1.2.14]
+- **Enhancement**: Added order cancel event to handle cancelled order status synchronisation [#34]
+
 # Mage2PlentyAc [1.6.7] 01 Oct 2024
 
 ### softcommerce/module-plenty-customer-client [1.2.8]
