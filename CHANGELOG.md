@@ -1,5 +1,13 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.9] 15 Oct 2024
+
+### softcommerce/module-plenty-order-profile [1.7.5]
+- **Enhancement**: Added an option to control the export of order shipping profiles [#35]
+
+### softcommerce/module-plenty-order-profile-schedule [1.2.15]
+- **Enhancement**: Added an interception plugin to handle order cancellation synchronisation [#34]
+
 # Mage2PlentyAc [1.6.8] 09 Oct 2024
 
 ### softcommerce/module-plenty-order-profile [1.7.4]

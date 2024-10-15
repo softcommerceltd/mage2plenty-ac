@@ -12,13 +12,13 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.6.8 [CE|EE|ECE 2.4.0-2.4.7] 09 Oct 2024
-          tag_name: 1.6.8
+          name: 1.6.9 [CE|EE|ECE 2.4.0-2.4.7] 15 Oct 2024
+          tag_name: 1.6.9
           body: |2-
-            ### softcommerce/module-plenty-order-profile [1.7.4]
-            - **Enhancement**: Added a functionality to handle cancelled order status synchronisation [#34]
+            ### softcommerce/module-plenty-order-profile [1.7.5]
+            - **Enhancement**: Added an option to control the export of order shipping profiles [#35]
 
-            ### softcommerce/module-plenty-order-profile-schedule [1.2.14]
-            - **Enhancement**: Added order cancel event to handle cancelled order status synchronisation [#34]
+            ### softcommerce/module-plenty-order-profile-schedule [1.2.15]
+            - **Enhancement**: Added an interception plugin to handle order cancellation synchronisation [#34]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
