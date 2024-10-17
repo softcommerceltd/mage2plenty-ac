@@ -1,5 +1,13 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.10] 17 Oct 2024
+
+### softcommerce/module-plenty-client-rest-api [1.3.1]
+- **Fix**: SoftCommerce\PlentyClientRestApi\Model\Response\ConfigDataBuilder::buildItemArrayResponse(): Argument #1 ($item) must be of type array, string given #36
+
+### softcommerce/module-plenty-stock-profile-schedule [1.2.10]
+- **Fix** CRITICAL: Message has been rejected: Profile ID is not set [#37]
+
 # Mage2PlentyAc [1.6.9] 15 Oct 2024
 
 ### softcommerce/module-plenty-order-profile [1.7.5]
