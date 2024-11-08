@@ -1,5 +1,16 @@
 ## Changelog
 
+# Mage2PlentyAc [1.6.2] 08 Nov 2024
+
+### softcommerce/module-plenty-order-profile [1.7.6]
+- **Enhancement**: Improvements to shipment creation for out of stock items [#39]
+
+### softcommerce/module-plenty-stock [1.3.9]
+- **Enhancement**: Improvements to Order Item source selection algorithm [#38]
+
+### softcommerce/module-plenty-stock-profile [1.7.1]
+- **Enhancement**: Improvements to Order Item source selection algorithm [#38]
+
 # Mage2PlentyAc [1.6.10] 17 Oct 2024
 
 ### softcommerce/module-plenty-client-rest-api [1.3.1]
