@@ -1,5 +1,13 @@
 ## Changelog
 
+# Mage2PlentyAc [1.7.0] 12 Dec 2024
+
+### softcommerce/module-plenty-attribute [1.5.0]
+- **Feature**: Add attributes for manufacturer model to facilitate GPSR data for Product Safety Regulation [#40]
+
+### softcommerce/module-plenty-attribute-rest-api [1.2.8]
+- **Compatibility**: Added REST API collect functionality for compatability with GH feature: #40 [https://github.com/softcommerceltd/mage2plenty-os/issues/40]
+
 # Mage2PlentyAc [1.6.2] 08 Nov 2024
 
 ### softcommerce/module-plenty-order-profile [1.7.6]

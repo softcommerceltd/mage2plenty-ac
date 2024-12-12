@@ -12,16 +12,13 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.6.1 [CE|EE|ECE 2.4.0-2.4.7] 08 Nov 2024
-          tag_name: 1.6.1
+          name: 1.7.0 [CE|EE|ECE 2.4.0-2.4.7] 12 Dec 2024
+          tag_name: 1.7.0
           body: |2-
-            ### softcommerce/module-plenty-order-profile [1.7.6]
-            - **Enhancement**: Improvements to shipment creation for out of stock items [#39]
+            ### softcommerce/module-plenty-attribute [1.5.0]
+            - **Feature**: Add attributes for manufacturer model to facilitate GPSR data for Product Safety Regulation [#40]
 
-            ### softcommerce/module-plenty-stock [1.3.9]
-            - **Enhancement**: Improvements to Order Item source selection algorithm [#38]
-
-            ### softcommerce/module-plenty-stock-profile [1.7.1]
-            - **Enhancement**: Improvements to Order Item source selection algorithm [#38]
+            ### softcommerce/module-plenty-attribute-rest-api [1.2.8]
+            - **Compatibility**: Added REST API collect functionality for compatability with GH feature: #40 [https://github.com/softcommerceltd/mage2plenty-os/issues/40]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
