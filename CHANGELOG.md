@@ -1,5 +1,129 @@
 ## Changelog
 
+# Mage2PlentyAc [1.8.0] 13 Jan 2025
+
+### softcommerce/module-core [1.5.8]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-attribute [1.5.1]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-attribute-rest-api [1.2.9]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-category [1.3.0]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-category-profile [1.4.0]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-category-profile-schedule [1.2.6]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-category-profile-staging [1.0.4]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-category-rest-api [1.2.5]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-client [1.4.2]
+- **Enhancement**: Added an option to clear client repository runtime cached data
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-client-rest-api [1.3.2]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-customer [1.3.2]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-customer-client [1.2.9]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-customer-profile [1.1.4]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-customer-rest-api [1.2.7]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-item [1.5.1]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-item-client [1.3.0]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-item-profile [1.9.3]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-item-profile-schedule [1.3.1]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-item-profile-staging [1.0.5]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-item-rest-api [1.3.1]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-log [1.2.8]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-order [1.4.2]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-order-client [1.4.2]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-order-profile [1.8.0]
+- **Feature**: Added an option to export product options for orders #41
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-order-profile-schedule [1.3.0]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-order-rest-api [1.3.1]
+- **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-profile [1.5.1]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-property [1.3.7]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-property-rest-api [1.2.7]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-rest-api [1.3.8]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-stock [1.4.0]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-stock-client [1.2.9]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-stock-profile [1.7.2]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-stock-profile-schedule [1.3.0]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-plenty-stock-rest-api [1.2.8]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-profile [1.4.5]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-profile-config [1.3.0]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-profile-history [1.2.9]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-profile-queue [1.1.2]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+### softcommerce/module-profile-schedule [1.3.7]
+- **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
 # Mage2PlentyAc [1.7.0] 12 Dec 2024
 
 ### softcommerce/module-plenty-attribute [1.5.0]
