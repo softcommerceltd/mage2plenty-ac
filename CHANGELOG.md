@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.8.1] 15 Jan 2025
+
+### softcommerce/module-plenty-order-profile [1.8.1]
+-- **Fix**: SourceItemRepository::getQtyPhysical(): Argument #2 ($sourceCode) must be of type string, null given, called in /../softcommerce/module-plenty-order-profile/Model/OrderImportService/Generator/Shipment.php on line 247 [#42]
+
 # Mage2PlentyAc [1.8.0] 13 Jan 2025
 
 ### softcommerce/module-core [1.5.8]
