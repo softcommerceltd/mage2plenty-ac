@@ -12,10 +12,21 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.8.1 [CE|EE|ECE 2.4.0-2.4.7] 15 Jan 2025
-          tag_name: 1.8.1
+          name: 1.9.0 [CE|EE|ECE 2.4.0-2.4.7] 05 Feb 2025
+          tag_name: 1.9.0
           body: |2-
-            ### softcommerce/module-plenty-order-profile [1.8.1]
-            -- **Fix**: SourceItemRepository::getQtyPhysical(): Argument #2 ($sourceCode) must be of type string, null given, called in /../softcommerce/module-plenty-order-profile/Model/OrderImportService/Generator/Shipment.php on line 247 [#42]
+            ### softcommerce/module-plenty-attribute [1.5.2]
+            - **Enhancement**: Added a setup script to remove attribute entries from the `plenty_attribute_entity` table after migrating manufacturers to a dedicated table
+
+            ### softcommerce/module-plenty-item-profile [1.10.0]
+            - **Enhancement**: Added an enhancement to accurately align the import of image sort orders with the data in the PlentyONE system. This change ensures that images maintain the correct sequence and display order based on PlentyONE’s configuration. [#44]
+            - **Enhancement**: Introduced an enhancement to correctly remove outdated super attributes from configurable products. Previously, old configuration attributes remained in the system even after being deleted in PlentyONE, causing inconsistencies. This update ensures that any attributes removed in PlentyONE are now properly deleted and no longer remain in the system. [#43]
+            - **Fix**: Applied a fix for TypeError: str_replace(): Argument #3 ($subject) must be of type array|string, null given in softcommerce/module-plenty-item-profile/Ui/Component/Form/PlentyAttributeOptions.php:50
+
+            ### softcommerce/module-plenty-order [1.5.0]
+            - **Feature**: Added functionality to refresh sales order grid using CLI [#45]
+
+            ### softcommerce/module-plenty-order-profile [1.9.0]
+            - **Feature**: Added new feature to map PlentyONE and Magento orders using CLI [#46]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
