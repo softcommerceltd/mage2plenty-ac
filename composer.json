@@ -27,16 +27,16 @@
         "softcommerce/module-plenty-log": "1.2.8",
         "softcommerce/module-plenty-order": "1.5.0",
         "softcommerce/module-plenty-order-client": "1.4.2",
-        "softcommerce/module-plenty-order-profile": "1.9.0",
+        "softcommerce/module-plenty-order-profile": "1.9.1",
         "softcommerce/module-plenty-order-profile-schedule": "1.3.0",
         "softcommerce/module-plenty-order-rest-api": "1.3.1",
         "softcommerce/module-plenty-profile": "1.5.1",
         "softcommerce/module-plenty-property": "1.3.7",
         "softcommerce/module-plenty-property-rest-api": "1.2.7",
         "softcommerce/module-plenty-rest-api": "1.3.8",
-        "softcommerce/module-plenty-stock": "1.4.0",
+        "softcommerce/module-plenty-stock": "1.4.1",
         "softcommerce/module-plenty-stock-client": "1.2.9",
-        "softcommerce/module-plenty-stock-profile": "1.7.2",
+        "softcommerce/module-plenty-stock-profile": "1.7.3",
         "softcommerce/module-plenty-stock-profile-schedule": "1.3.0",
         "softcommerce/module-plenty-stock-rest-api": "1.2.8",
         "softcommerce/module-profile": "1.4.5",
@@ -45,5 +45,5 @@
         "softcommerce/module-profile-queue": "1.1.2",
         "softcommerce/module-profile-schedule": "1.3.7"
     },
-    "version": "1.9.0"
+    "version": "1.9.1"
 }

@@ -1,5 +1,16 @@
 ## Changelog
 
+# Mage2PlentyAc [1.9.1] 18 Feb 2025
+
+### softcommerce/module-plenty-order-profile [1.9.1]
+- **Enhancement**: Optimized stock source assignment: Orders with default stock sources now reference item configuration for reservation checks, reducing resource overhead. [#48]
+
+### softcommerce/module-plenty-stock [1.4.1]
+- **Enhancement**: Created new interface for item stock configuration that allows quick verification of stock management status. This enhancement optimizes the overall efficiency of stock management within our system. [#47]
+
+### softcommerce/module-plenty-stock-profile [1.7.3]
+- **Enhancement**: Minor codebase style improvements.
+
 # Mage2PlentyAc [1.9.0] 05 Feb 2025
 
 ### softcommerce/module-plenty-attribute [1.5.2]
