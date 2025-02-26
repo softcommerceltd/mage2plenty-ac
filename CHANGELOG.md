@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.9.2] 26 Feb 2025
+
+### softcommerce/module-plenty-order-profile [1.9.2]
+- **Enhancement**: A fix has been implemented to correct VAT rate exports for order items. Previously, bundle items without a VAT reference in the Magento sales order table were mistakenly exported with a 0% VAT rate, and this update ensures the correct rate is now exported. [#49]
+
 # Mage2PlentyAc [1.9.1] 18 Feb 2025
 
 ### softcommerce/module-plenty-order-profile [1.9.1]
