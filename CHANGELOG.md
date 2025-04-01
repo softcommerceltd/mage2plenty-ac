@@ -1,5 +1,33 @@
 ## Changelog
 
+# Mage2PlentyAc [1.10.0] 01 Apr 2025
+
+### softcommerce/module-core [1.5.9]
+- **Enhancement**: Add Method to FileImageManagement Interface for Deleting Downloaded Images from pub/media/import Directory
+- **Enhancement**: Add Weight Unit Source Options to Enable Configuration via UI Profiles
+
+### softcommerce/module-plenty-customer [1.3.3]
+- **Fix**: Fix Unique Constraints in Database Schema for Plenty Address Relations [#55]
+
+### softcommerce/module-plenty-item-profile [1.11.0]
+- **Enhancement**: Optimize Image Handling to Prevent Unnecessary Downloads During Item and Variation Collection [#51]
+
+### softcommerce/module-plenty-order [1.5.1]
+- **Enhancement**: Apply Descending Sort Order to getOrdersById Interface Collection [#56]
+
+### softcommerce/module-plenty-order-client [1.5.0]
+- **Feature**: Compatibility with shipping tracking functionality [#52]
+
+### softcommerce/module-plenty-order-profile [1.10.0]
+- **Feature**: Add Support for Exporting Shipment Tracking Information from Magento to Plenty [#52]
+- **Feature**: Implement Channel-Based Restrictions for Order Export Functionality [#50]
+
+### softcommerce/module-plenty-order-rest-api [1.4.0]
+- **Feature**: Compatibility with shipping tracking functionality [#52]
+
+### softcommerce/module-plenty-rest-api [1.3.9]
+- **Enhancement**: Enhance Batch Request Method to Allow Grouping Responses by Resource URI [#53]
+
 # Mage2PlentyAc [1.9.2] 26 Feb 2025
 
 ### softcommerce/module-plenty-order-profile [1.9.2]
