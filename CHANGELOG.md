@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.10.1] 09 Apr 2025
+
+### softcommerce/module-plenty-order-profile [1.10.1]
+- **Enhancement** Added the ability to conditionally add product options to order line items based on defined rules.
+
 # Mage2PlentyAc [1.10.0] 01 Apr 2025
 
 ### softcommerce/module-core [1.5.9]
