@@ -1,5 +1,25 @@
 ## Changelog
 
+# Mage2PlentyAc [1.10.2] 29 Apr 2025
+
+### softcommerce/module-plenty-client [1.4.3]
+- **Enhancement**: Removed unused database schema declaration.
+
+### softcommerce/module-plenty-customer [1.3.4]
+- **Enhancement**: Removed unused database schema declaration.
+
+### softcommerce/module-plenty-item-profile [1.11.1]
+- **Enhancement**: Removed unused database schema declaration.
+
+### softcommerce/module-plenty-profile [1.5.2]
+- **Enhancement**: Removed unused database schema declaration.
+
+### softcommerce/module-plenty-property [1.3.8]
+- **Enhancement**: Removed unused database schema declaration.
+
+### softcommerce/module-plenty-stock [1.4.2]
+- **Enhancement**: Removed unused database schema declaration.
+
 # Mage2PlentyAc [1.10.1] 09 Apr 2025
 
 ### softcommerce/module-plenty-order-profile [1.10.1]
