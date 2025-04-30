@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.10.3] 30 Apr 2025
+
+### softcommerce/module-plenty-item-profile [1.11.2]
+- **Enhancement**: Validation error found :: attribute values do not match the other variations [#57]
+
 # Mage2PlentyAc [1.10.2] 29 Apr 2025
 
 ### softcommerce/module-plenty-client [1.4.3]
