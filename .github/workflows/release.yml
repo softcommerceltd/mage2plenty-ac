@@ -12,10 +12,10 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.10.3 [CE|EE|ECE 2.4.0-2.4.7] 30 Apr 2025
-          tag_name: 1.10.3
+          name: 1.10.4 [CE|EE|ECE 2.4.0-2.4.7] 06 May 2025
+          tag_name: 1.10.4
           body: |2-
-            ### softcommerce/module-plenty-item-profile [1.11.2]
-            - **Enhancement**: Validation error found :: attribute values do not match the other variations [#57]
+            ### softcommerce/module-plenty-order-profile [1.10.2]
+            - **Fix** Ensure Customer Address Relation Is Always Assigned [#58]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

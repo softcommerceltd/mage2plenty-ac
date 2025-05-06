@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.10.4] 06 May 2025
+
+### softcommerce/module-plenty-order-profile [1.10.2]
+- **Fix** Ensure Customer Address Relation Is Always Assigned [#58]
+
 # Mage2PlentyAc [1.10.3] 30 Apr 2025
 
 ### softcommerce/module-plenty-item-profile [1.11.2]
