@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.10.5] 07 May 2025
+
+### softcommerce/module-plenty-item-profile [1.11.3]
+- **Compatibility**: Proper Cache Invalidation for Varnish After Product Import [#59]
+
 # Mage2PlentyAc [1.10.4] 06 May 2025
 
 ### softcommerce/module-plenty-order-profile [1.10.2]
