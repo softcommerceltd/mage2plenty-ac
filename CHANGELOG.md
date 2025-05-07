@@ -1,5 +1,14 @@
 ## Changelog
 
+# Mage2PlentyAc [1.11.0] 07 May 2025
+
+### softcommerce/module-plenty-item-profile [1.12.0]
+- **Feature**: New CLI Command to Clear Product Mappings [#61]
+- **Fix**: Override Configurable Attribute Values on Product Export [#60]
+
+### softcommerce/module-plenty-order-profile [1.11.0]
+- **Feature**: Option to Exclude Warehouse Assignment on Order Line Items [#62]
+
 # Mage2PlentyAc [1.10.5] 07 May 2025
 
 ### softcommerce/module-plenty-item-profile [1.11.3]
