@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.12.0] 08 May 2025
+
+### softcommerce/module-core [1.6.0]
+- **Compatibility**: Added compatibility for Magento 2.4.8
+
 # Mage2PlentyAc [1.11.0] 07 May 2025
 
 ### softcommerce/module-plenty-item-profile [1.12.0]

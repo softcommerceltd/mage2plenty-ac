@@ -12,14 +12,10 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.11.0 [CE|EE|ECE 2.4.0-2.4.7] 07 May 2025
-          tag_name: 1.11.0
+          name: 1.12.0 [CE|EE|ECE 2.4.0-2.4.7] 08 May 2025
+          tag_name: 1.12.0
           body: |2-
-            ### softcommerce/module-plenty-item-profile [1.12.0]
-            - **Feature**: New CLI Command to Clear Product Mappings [#61]
-            - **Fix**: Override Configurable Attribute Values on Product Export [#60]
-
-            ### softcommerce/module-plenty-order-profile [1.11.0]
-            - **Feature**: Option to Exclude Warehouse Assignment on Order Line Items [#62]
+            ### softcommerce/module-core [1.6.0]
+            - **Compatibility**: Added compatibility for Magento 2.4.8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
