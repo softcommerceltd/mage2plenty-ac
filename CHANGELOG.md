@@ -1,5 +1,10 @@
 ## Changelog
 
+# Mage2PlentyAc [1.12.1] 19 May 2025
+
+### softcommerce/module-plenty-order-profile-schedule [1.3.1]
+- **Enhancement**: Efficient Order Export Using Status Filters [#63]
+
 # Mage2PlentyAc [1.12.0] 08 May 2025
 
 ### softcommerce/module-core [1.6.0]
