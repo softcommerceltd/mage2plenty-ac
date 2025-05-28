@@ -1,5 +1,17 @@
 ## Changelog
 
+# Mage2PlentyAc [1.13.0] 28 May 2025
+
+### softcommerce/module-core [1.6.1]
+- **Enhancement**: Enhanced Configurable-Product Detection in Export/Import Interface [#64]
+
+### softcommerce/module-plenty-item [1.6.0]
+- **Feature**: Allow Export of “Not Visible Individually” Products to PlentyMarkets [#66]
+- **Enhancement**: Add Pagination to Product Chooser Modal in Product Export Listing [#65]
+
+### softcommerce/module-plenty-item-profile [1.13.0]
+- **Feature**: Allow Export of “Not Visible Individually” Products to PlentyMarkets [#66]
+
 # Mage2PlentyAc [1.12.1] 19 May 2025
 
 ### softcommerce/module-plenty-order-profile-schedule [1.3.1]
