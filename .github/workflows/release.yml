@@ -12,17 +12,14 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.13.0 [CE|EE|ECE 2.4.0-2.4.7] 28 May 2025
-          tag_name: 1.13.0
+          name: 1.13.1 [CE|EE|ECE 2.4.0-2.4.7] 11 Jun 2025
+          tag_name: 1.13.1
           body: |2-
-            ### softcommerce/module-core [1.6.1]
-            - **Enhancement**: Enhanced Configurable-Product Detection in Export/Import Interface [#64]
+            ### softcommerce/module-plenty-item [1.6.1]
+            - **Enhancement** Add isShippingType() Method to Plenty Item Modules [#69]
 
-            ### softcommerce/module-plenty-item [1.6.0]
-            - **Feature**: Allow Export of “Not Visible Individually” Products to PlentyMarkets [#66]
-            - **Enhancement**: Add Pagination to Product Chooser Modal in Product Export Listing [#65]
-
-            ### softcommerce/module-plenty-item-profile [1.13.0]
-            - **Feature**: Allow Export of “Not Visible Individually” Products to PlentyMarkets [#66]
+            ### softcommerce/module-plenty-order-profile [1.11.1]
+            - **Fix** Support Multiple Tracking Numbers in Order Shipping Import [#68]
+            - **Enhancement** Ensure Sales Order Grid Reindexing for Orders Skipped by Export [#67]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

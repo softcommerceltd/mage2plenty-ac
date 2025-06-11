@@ -1,5 +1,14 @@
 ## Changelog
 
+# Mage2PlentyAc [1.13.1] 11 Jun 2025
+
+### softcommerce/module-plenty-item [1.6.1]
+- **Enhancement** Add isShippingType() Method to Plenty Item Modules [#69]
+
+### softcommerce/module-plenty-order-profile [1.11.1]
+- **Fix** Support Multiple Tracking Numbers in Order Shipping Import [#68]
+- **Enhancement** Ensure Sales Order Grid Reindexing for Orders Skipped by Export [#67]
+
 # Mage2PlentyAc [1.13.0] 28 May 2025
 
 ### softcommerce/module-core [1.6.1]
