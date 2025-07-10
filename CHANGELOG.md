@@ -1,5 +1,18 @@
 ## Changelog
 
+# Mage2PlentyAc [1.14.0] 10 Jul 2025
+
+### softcommerce/module-plenty-client [1.4.4]
+- **Enhancement**: Improved the client token refresh logic to check if the refresh token has expired before using it. This prevents unnecessary login attempts and makes the token handling more robust. [#72]
+
+### softcommerce/module-plenty-item-profile [1.13.1]
+- **Fix**: Resolved an issue where the image import process would stop prematurely if the `namesData` array was empty. The logic has been adjusted to ensure the process continues, allowing for more flexible image handling. [#71]
+
+### softcommerce/module-plenty-order [1.5.2]
+- **Feature**: Added support for order comments, allowing comments to be stored and retrieved with order data. [#70]
+
+### softcommerce/module-plenty-order-profile [1.12.0]
+
 # Mage2PlentyAc [1.13.1] 11 Jun 2025
 
 ### softcommerce/module-plenty-item [1.6.1]
