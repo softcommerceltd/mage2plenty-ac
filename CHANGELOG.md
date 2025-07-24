@@ -1,5 +1,132 @@
 ## Changelog
 
+
+# mage2plenty-suite-ac [1.14.1] 24 Jul 2025
+
+### softcommerce/module-core [1.6.3]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-attribute [1.5.4]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-attribute-rest-api [1.2.11]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-category [1.3.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-category-profile [1.4.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-category-profile-schedule [1.2.8]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-category-profile-staging [1.0.5]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+- ## softcommerce/module-plenty-category-profile-staging [1.0.4] - **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-category-rest-api [1.2.7]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-client [1.4.6]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-client-rest-api [1.3.4]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-customer [1.3.6]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-customer-client [1.2.11]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-customer-profile [1.1.6]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-customer-rest-api [1.2.9]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-item [1.6.3]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-item-client [1.3.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-item-profile [1.13.3]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-item-profile-schedule [1.3.3]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-item-profile-staging [1.0.6]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+- ## softcommerce/module-plenty-item-profile-staging [1.0.5] - **Compatibility**: Added compatibility for PHP 8.4 and Magento 2.4.8-beta
+
+### softcommerce/module-plenty-item-rest-api [1.3.3]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-log [1.2.10]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-order [1.5.4]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-order-client [1.5.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-order-profile [1.12.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-order-profile-schedule [1.3.3]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-order-rest-api [1.4.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-profile [1.5.4]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-property [1.3.10]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-property-rest-api [1.2.9]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-rest-api [1.3.11]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-stock [1.4.4]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-stock-client [1.2.11]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-stock-profile [1.7.5]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-stock-profile-schedule [1.3.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-plenty-stock-rest-api [1.2.10]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-profile [2.0.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-profile-config [1.3.2]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-profile-history [1.2.11]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-profile-queue [1.1.4]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+
+### softcommerce/module-profile-schedule [1.3.8]
+- The metapackage release notes are now properly extracting and formatting the module changes from the CHANGELOG.md file
+- ## softcommerce/module-profile-schedule [1.3.7] - **Enhancement**: Included `servicepoint` type to account for `pakshop` facility.
+
+
 # Mage2PlentyAc [1.14.0] 10 Jul 2025
 
 ### softcommerce/module-plenty-client [1.4.4]
