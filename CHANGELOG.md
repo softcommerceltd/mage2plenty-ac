@@ -1,5 +1,75 @@
 ## Changelog
 
+# mage2plenty-suite-ac [2.0.0] 08 Jan 2025
+
+## Major Release - Version 2.0.0
+
+This release brings significant improvements to the Mage2Plenty connector for Adobe Commerce with PHP 8.4 support, enhanced type safety, and major architectural updates.
+
+### Highlights
+
+- **PHP 8.4 Compatibility**: Full support for PHP 8.4 across all modules
+- **Breaking Changes**: Minimum PHP version raised to 8.1, major API changes
+- **Enhanced Type Safety**: Implemented readonly properties and constructor property promotion
+- **Comprehensive Features**: New admin notification system, setup integration, CLI progress bars, and more
+
+### Core Changes
+
+- **BREAKING:** Minimum PHP version raised to 8.1
+- **BREAKING:** Consolidated 15 modules into parent modules
+- **BREAKING:** API interfaces relocated to `Api/*` namespace
+- **BREAKING:** MessageStorage deprecated in favor of MessageCollector
+- Implemented PHP 8.3 constructor property promotion across all modules
+- Enhanced type safety with readonly properties
+- Improved dependency injection using interfaces
+- Refactored to ProcessorGuard pattern in profile module
+
+### Added Features
+
+- Comprehensive Admin Notification system with real-time grid and severity levels
+- Setup integration system with CLI and Admin UI wizard
+- Profile auto-configuration with intelligent mapping suggestions
+- CLI progress bars with entity-level tracking
+- Product identifier mapping via custom attributes
+- Display variation ID and source code in Sales Order items
+- Support for importing shipments with tracking IDs
+- Live cron schedule monitoring UI
+- HTML email templates
+- Improved stock reservation calculation with accurate quantity tracking
+- PlentyONE Stock Sync Status in product view page
+- Inventory Reservations panel in product view page
+- Automatic retry for failed order exports
+- Comprehensive stock and reservation listings
+- New CLI commands for mapping and data management
+- MessageCollector replacing MessageStorage
+- ProductDataRegistry system replacing SkuPool
+
+### Fixed Issues
+
+- Order cancellation synchronization with PlentyONE
+- Notification system compatibility with MessageCollector
+- URL rewrite conflicts during import
+- Race conditions in batch processing
+- Token refresh logic for expired refresh tokens
+
+### Adobe Commerce Specific Modules
+
+#### softcommerce/module-plenty-category-profile-staging [2.0.0]
+- **BREAKING**: Upgraded minimum PHP version requirement to 8.3+
+- **BREAKING**: Major API changes for PlentyMarkets integration
+- **Compatibility**: Added support for PHP 8.4
+- **Enhancement**: Add readonly property promotion for dependency injection
+
+#### softcommerce/module-plenty-item-profile-staging [2.0.0]
+- **BREAKING**: Upgraded minimum PHP version requirement to 8.3+
+- **BREAKING**: Major API changes for PlentyMarkets integration
+- **Compatibility**: Added support for PHP 8.4
+
+### Migration Guide
+
+Please refer to the [full release announcement](https://docs.softcommerce.io/mage2plenty/blog/mage2plenty-v2-release) for detailed migration instructions.
+
+---
 
 # mage2plenty-suite-ac [1.14.1] 24 Jul 2025
 
