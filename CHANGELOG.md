@@ -1,5 +1,65 @@
 ## Changelog
 
+
+# mage2plenty-suite-ac [2.1.0] 27 Nov 2025
+
+### softcommerce/module-core [2.0.1]
+- replace union type with mixed for laminas-code compatibility
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-attribute [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-category [2.1.0]
+- add runtime cache and mapping for category IDs
+
+### softcommerce/module-plenty-category-profile [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-client [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-customer [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-customer-profile [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-item [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-item-profile [2.0.1]
+- Remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-log [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-order [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-order-profile [2.1.0]
+- add comprehensive order status change detection
+- add automatic parent order status sync for credit notes
+- enhance batch processing with comprehensive message tracking
+- add intelligent status update system
+- add incomplete order detection system
+- add payment method filtering for invoice creation
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-profile [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-property [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+### softcommerce/module-plenty-stock-profile [2.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+- use resolved profile ID in stock collection queue handler
+
+### softcommerce/module-profile [3.0.1]
+- remove typed class constants for PHP 8.1/8.2 compatibility
+
+
 # mage2plenty-suite-ac [2.0.0] 08 Jan 2025
 
 ## Major Release - Version 2.0.0
