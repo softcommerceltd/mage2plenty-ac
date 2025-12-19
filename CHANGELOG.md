@@ -1,6 +1,36 @@
 ## Changelog
 
 
+
+# mage2plenty-suite-ac [2.2.0] 19 Dec 2025
+
+### softcommerce/module-core [2.1.0]
+- add CronHeartbeat service for monitoring cron system health
+
+### softcommerce/module-plenty-customer [2.1.0]
+- add order address ID support and fix address option constants
+- improve address matching with street, company and normalization
+
+### softcommerce/module-plenty-customer-profile [2.1.0]
+- refactor address relation enrichment and improve contact export
+
+### softcommerce/module-plenty-item [2.1.0]
+- add validated SKU to item/variation resolver
+
+### softcommerce/module-plenty-order [2.0.2]
+- improve type safety in order address and metadata handling
+
+### softcommerce/module-plenty-order-profile [2.2.0]
+- improve order address handling and add diagnostic commands
+- prevent order address entity_id mutation breaking PackStation plugin
+
+### softcommerce/module-plenty-profile [2.0.2]
+- correct time duration formatting for float values
+
+### softcommerce/module-plenty-stock-profile [2.0.2]
+- add explicit string cast for SKU in reservation processing
+
+
 # mage2plenty-suite-ac [2.1.0] 27 Nov 2025
 
 ### softcommerce/module-core [2.0.1]
