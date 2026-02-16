@@ -3,6 +3,62 @@
 
 
 
+
+# mage2plenty-suite-ac [3.0.0] 16 Feb 2026
+
+### softcommerce/module-core [2.3.0]
+- add email notification service for admin alerts
+- remove @media-common guard from adminhtml LESS
+
+### softcommerce/module-plenty-attribute [2.0.2]
+- save attribute data immediately after export to PlentyONE
+
+### softcommerce/module-plenty-client [2.1.1]
+- update setup command default timeouts to match API client defaults
+- set sensible default API timeouts instead of unlimited
+
+### softcommerce/module-plenty-item [2.3.0]
+- add selective cache removal and dimension field mapping to data providers
+- add "Select All" support for product export queue admin grid
+- resolve parent configurable products when adding children to export queue
+- add plenty_item_id and plenty_variation_id to configurable product variations grid
+- disable broken export row action in queue listing
+- correct shipping profile query filter and code style
+- resolve order import failure when custom attribute mapping is enabled
+
+### softcommerce/module-plenty-item-profile [3.0.1]
+- skip new non-visible child products from export queue in observer
+
+### softcommerce/module-plenty-order [2.0.4]
+- resolve incorrect null return for zero quantity in order item model
+
+### softcommerce/module-plenty-order-profile [2.4.0]
+- add configurable retry limits and email notifications for failed order exports
+- add partial amount refund and shipping support for credit memo import
+- add sales_order duplicate detection to detect-duplicates command
+- correct label typo in creditmemo order status field
+- require credit note order type as prerequisite for creditmemo creation
+- always aggregate batch messages and clean up memory during order import
+- remove unreliable external order lookup on export failure
+- resolve order export infinite loop caused by SearchCriteria caching
+- use null-safe operator for customer extension attributes
+- return null early when shipping package ID is zero
+- add validation to prevent duplicate plenty_order_id assignment
+
+### softcommerce/module-plenty-profile [2.1.1]
+- improve system property setup command output and status tracking
+
+### softcommerce/module-plenty-property [2.0.3]
+- skip redundant property group export when groups already exist
+- save property data immediately after export for product export availability
+
+### softcommerce/module-plenty-stock-profile [2.0.4]
+- remove @media-common guard from adminhtml LESS
+
+### softcommerce/module-profile [3.0.3]
+- remove @media-common guard from adminhtml LESS
+
+
 # mage2plenty-suite-ac [2.3.0] 12 Jan 2026
 
 ### softcommerce/module-core [2.2.0]
