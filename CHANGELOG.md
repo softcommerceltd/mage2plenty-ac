@@ -4,6 +4,10 @@
 
 
 
+
+# mage2plenty-suite-ac [3.0.1] 16 Mar 2026
+
+
 # mage2plenty-suite-ac [3.0.0] 16 Feb 2026
 
 ### softcommerce/module-core [2.3.0]
