@@ -1,8 +1,28 @@
 ## Changelog
 
+# mage2plenty-suite [3.1.0] 13 Mar 2026
 
+### softcommerce/module-core [2.4.0]
+- **Feature**: add rebrand notice and update copyright headers to Byte8 Ltd
 
+### softcommerce/module-plenty-customer-profile [2.1.2]
+- **Fix**: resolve customer class ID from group mapping during contact export
 
+### softcommerce/module-plenty-item [2.4.0]
+- **Feature**: add plenty_variation_entity lookup for SKU to variation ID resolution
+
+### softcommerce/module-plenty-item-profile [3.0.2]
+- **Fix**: prevent post-processors from running when type processor fails or is skipped
+
+### softcommerce/module-plenty-order-profile [2.4.1]
+- **Fix**: resolve order export pagination infinite loop
+- **Fix**: add name fallback for guest orders with missing customer name
+- **Fix**: mark non-retryable error orders as SKIPPED in database
+
+### softcommerce/module-profile-notification [2.1.0]
+- **Feature**: include notification details in batch summary email
+- **Fix**: improve notification batching and context enrichment
+- **Fix**: suppress duplicate batch notification emails
 
 
 # mage2plenty-suite-ac [3.0.1] 16 Mar 2026
