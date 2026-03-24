@@ -1,5 +1,29 @@
 ## Changelog
 
+
+# mage2plenty-suite-ac [3.2.0] 24 Mar 2026
+
+### softcommerce/module-plenty-client [2.1.3]
+- exclude request payload from API error logs unless verbose mode is enabled
+
+### softcommerce/module-plenty-item-profile [3.1.0]
+- auto-create missing attribute values and skip variations with unresolved values
+- move media checksum computation to async message queue handler
+- inject variationId into dedicated endpoint payload items
+- surface batch execution errors to CLI and UI via message collector
+- prevent memory leak in retry registry and harden SKU availability check
+- add circuit breaker to prevent infinite relation link reprocessing loop
+- allow post-processors to save error results when SKU is available
+
+### softcommerce/module-plenty-order-profile [2.4.2]
+- prevent cancellation of orders with existing credit notes in PlentyONE
+- resolve creditmemo not created for canceled orders with status condition
+
+### softcommerce/module-plenty-profile [2.2.0]
+- add agnostic action handler pool for setup message queue consumer
+- add missing composer dependency on module-profile-notification
+
+
 # mage2plenty-suite [3.1.0] 13 Mar 2026
 
 ### softcommerce/module-core [2.4.0]
