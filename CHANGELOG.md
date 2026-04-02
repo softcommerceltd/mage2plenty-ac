@@ -1,6 +1,25 @@
 ## Changelog
 
 
+
+# mage2plenty-suite-ac [3.2.1] 02 Apr 2026
+
+### softcommerce/module-plenty-item-profile [3.1.1]
+- preserve parent request data for post-processors in configurable import
+
+### softcommerce/module-plenty-order [2.0.7]
+- add JSON_VALID guard to inventory_reservation metadata queries
+
+### softcommerce/module-plenty-order-profile [2.4.3]
+- clean up shipment generator and fix CLI option conflict
+- use total PlentyONE variation qty for shipment item quantity
+- resolve back-shipment stock deficit for duplicate SKU order lines
+- allow follow-up shipments when conditional rules are active
+
+### softcommerce/module-plenty-stock-profile [2.0.7]
+- prevent json_extract errors on corrupt inventory_reservation metadata
+
+
 # mage2plenty-suite-ac [3.2.0] 24 Mar 2026
 
 ### softcommerce/module-plenty-client [2.1.3]
