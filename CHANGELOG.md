@@ -2,6 +2,38 @@
 
 
 
+
+# mage2plenty-suite-ac [3.3.0] 22 Apr 2026
+
+### softcommerce/module-plenty-category-profile [2.0.4]
+- propagate profile ID to collect service in CategoryCollect
+
+### softcommerce/module-plenty-item-profile [3.2.0]
+- add None option to Magento price attribute dropdown
+- guard null name in ConfigAttribute child product name generation
+- propagate profile ID to collect services in schedule queue processors
+- resolve image ID lookup failures during variation image assignment
+- resolve DELETE batch validation errors on PIM variation endpoints
+
+### softcommerce/module-plenty-order [2.1.0]
+- add claim() method with negative predicate for order status
+- add atomic compare-and-swap to UpdateSalesOrderStatus
+
+### softcommerce/module-plenty-order-profile [2.4.4]
+- key order item discount gross-up on catalog price basis
+- widen order export claim to block only processing status
+- resolve discount_tax config at store scope in Promotion generator
+- respect Magento discount_tax config when grossing up order item discount
+- prevent duplicate order export via atomic claim
+- propagate profile ID to collect service in OrderCollect
+
+### softcommerce/module-plenty-profile [2.2.1]
+- honor per-mapping locale in StoreConfig::buildStoreData
+
+### softcommerce/module-plenty-stock-profile [2.0.8]
+- propagate profile ID to collect service in StockCollect
+
+
 # mage2plenty-suite-ac [3.2.1] 02 Apr 2026
 
 ### softcommerce/module-plenty-item-profile [3.1.1]
