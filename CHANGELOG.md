@@ -3,6 +3,27 @@
 
 
 
+
+# mage2plenty-suite-ac [3.4.0] 13 May 2026
+
+### softcommerce/module-plenty-client [2.1.4]
+- advance REQUEST_INDEX per response item in non-associative batch bodies
+
+### softcommerce/module-plenty-item-profile [3.3.0]
+- add scheduled item-mapping data integrity check
+- add plenty:item:purge-orphans CLI command
+- align export response to commands by SKU/externalId, not array index
+- drain plenty_item_export_queue and honour process_batch_size
+
+### softcommerce/module-plenty-order-profile [2.5.0]
+- add scheduled cleanup for plenty_order_entity storage
+
+### softcommerce/module-plenty-stock-profile [2.1.0]
+- prune stale plenty_stock_entity rows after one-time full collect
+- always create inventory_source_item row on initial stock import even at qty 0
+- detect orphaned client reservations from unassigned warehouses
+
+
 # mage2plenty-suite-ac [3.3.0] 22 Apr 2026
 
 ### softcommerce/module-plenty-category-profile [2.0.4]
