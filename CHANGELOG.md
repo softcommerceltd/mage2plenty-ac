@@ -4,6 +4,20 @@
 
 
 
+
+# mage2plenty-suite-ac [3.5.0] 20 May 2026
+
+### softcommerce/module-plenty-item-profile [3.4.0]
+- configurable placeholder SKU quarantine + use variation.number across import pipeline
+- use '0' instead of null for None option value in price attribute dropdown
+
+### softcommerce/module-plenty-stock [2.1.0]
+- add invalidateMappingByVariationIds helper to Inventory resource
+
+### softcommerce/module-plenty-stock-profile [2.2.0]
+- stock data integrity hardening — self-healing pre-processors, variation rename cascade, source-assignment notice, reconcile command, variation_id-anchored orphan cleanup
+
+
 # mage2plenty-suite-ac [3.4.0] 13 May 2026
 
 ### softcommerce/module-plenty-client [2.1.4]
