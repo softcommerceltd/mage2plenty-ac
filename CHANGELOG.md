@@ -5,6 +5,10 @@
 
 
 
+
+# mage2plenty-suite-ac [3.6.0] 30 May 2026
+
+
 # mage2plenty-suite-ac [3.5.0] 20 May 2026
 
 ### softcommerce/module-plenty-item-profile [3.4.0]
