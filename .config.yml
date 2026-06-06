@@ -1,27 +1,7 @@
 packages:
-  - softcommerce/module-core
-  - softcommerce/module-plenty-attribute
-  - softcommerce/module-plenty-category
-  - softcommerce/module-plenty-category-profile
+  - softcommerce/mage2plenty-os
   - softcommerce/module-plenty-category-profile-staging
-  - softcommerce/module-plenty-client
-  - softcommerce/module-plenty-customer
-  - softcommerce/module-plenty-customer-profile
-  - softcommerce/module-plenty-item
-  - softcommerce/module-plenty-item-profile
   - softcommerce/module-plenty-item-profile-staging
-  - softcommerce/module-plenty-log
-  - softcommerce/module-plenty-order
-  - softcommerce/module-plenty-order-profile
-  - softcommerce/module-plenty-profile
-  - softcommerce/module-plenty-property
-  - softcommerce/module-plenty-stock
-  - softcommerce/module-plenty-stock-profile
-  - softcommerce/module-profile
-  - softcommerce/module-profile-history
-  - softcommerce/module-profile-notification
-  - softcommerce/module-profile-queue
-  - softcommerce/module-profile-schedule
 
 # Email notification settings
 email:
