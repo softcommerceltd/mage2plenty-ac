@@ -4,9 +4,9 @@
     "type": "metapackage",
     "license": "EULA",
     "require": {
-        "softcommerce/mage2plenty-os": "3.8.0",
+        "softcommerce/mage2plenty-os": "3.9.0",
         "softcommerce/module-plenty-category-profile-staging": "2.0.1",
         "softcommerce/module-plenty-item-profile-staging": "2.0.1"
     },
-    "version": "3.8.0"
+    "version": "3.9.0"
 }
