@@ -12,6 +12,10 @@
 
 
 
+
+# mage2plenty-suite-ac [3.13.0] 27 Jul 2026
+
+
 # mage2plenty-suite-ac [3.12.0] 25 Jun 2026
 
 
